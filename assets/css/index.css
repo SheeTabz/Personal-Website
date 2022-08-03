@@ -32,3 +32,56 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 2;
 }
+
+nav{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.logo{
+    font-family: ;
+}
+.logo::before{
+    content: "*";
+    color: #A01E3F;
+    border:2px solid #fff;
+    border-style: double dotted;
+    border-radius: 30%;
+}
+nav ul{
+    display: flex; 
+    list-style: none;
+}
+nav ul li{
+    margin: 0 20px;
+
+}
+nav>ul>li>a{
+    transform: translateY(5px)  ;
+    transition: all 0.2s;
+    
+}
+nav>ul>li>a:hover{
+    width: 100%;
+    height: 5px;
+    border-bottom: solid #A01E3F;
+    color: #A01E3F;
+}
+.cv{
+    color:#fff ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #A01E3F;
+    border: none;
+}

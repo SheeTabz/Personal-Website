@@ -1,7 +1,34 @@
-/* orange :#E94E35;
+/* orange :#A01E3F;
 body:#F3F1EF;
 black : #171513; */
-
+html{
+    scroll-behavior: smooth;
+}
 body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Arima';
+}
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: url('../images/homeBg3.jpg') ;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+#overlay{
+    position: fixed;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
 }

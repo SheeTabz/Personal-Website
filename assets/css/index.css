@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F3F1EF;
     font-family: 'Arima';
 }
 .container{
@@ -51,13 +52,13 @@ a{
 .logo{
     font-family: ;
 }
-.logo::before{
-    content: "*";
+/* .logo::before{
+    content: "";
     color: #A01E3F;
     border:2px solid #fff;
     border-style: double dotted;
     border-radius: 30%;
-}
+} */
 nav ul{
     display: flex; 
     list-style: none;
@@ -84,4 +85,53 @@ nav>ul>li>a:hover{
     padding: 10px;
     background-color: #A01E3F;
     border: none;
+    cursor: pointer;
 }
+
+/* HOME */
+
+.homeSec{
+    height: 80vh ;
+    width: 700px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.homeSec article{
+    width: 200px;
+    background-color:coral;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+/* .homeSec article::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 2px;
+    border-color: #A01E3F;
+    border-style: dotted;
+    bottom: 7px;
+    right: 25px;
+} */
+.homeSec h1{
+    font-size: 2rem;
+}
+.homeSec p{
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+}
+.homeSec button{
+    width: 150px;
+    color:#fff ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #A01E3F;
+    border: none;
+}
+

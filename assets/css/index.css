@@ -12,17 +12,13 @@ body {
     font-family: 'Arima';
 }
 .container{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+    height: 100vh;
     background-image: url('../images/homeBg3.jpg') ;
     background-size:cover;
     background-repeat: no-repeat;
 }
 #overlay{
-    position: fixed;
+    position: absolute;
     overflow: auto;
     width: 100%;
     height: 100%;
@@ -49,9 +45,7 @@ a{
     color: inherit;
     text-decoration: none;
 }
-.logo{
-    font-family: ;
-}
+
 /* .logo::before{
     content: "";
     color: #A01E3F;
@@ -135,3 +129,25 @@ nav>ul>li>a:hover{
     border: none;
 }
 
+
+/* ABOUT ME */
+#about{
+    width: 80%;
+    margin: auto;
+}
+#about h1{
+    text-align: center;
+    font-size: 2rem;
+}
+.aboutSec{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+
+    background-color: brown;
+    flex-basis: 60%;
+}

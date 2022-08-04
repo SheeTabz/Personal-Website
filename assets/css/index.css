@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F3F1EF;
+    background-color: #FEF2F2;
     font-family: 'Arima';
     
 }
@@ -251,7 +251,40 @@ nav>ul>li>a:hover{
     padding: 10px;
     transform: 0.2s ease;
 }
-/* .grid:hover{
-    background-color: #e2456f;
-    color: black
-} */
+
+/* CONTACT INFORMATION */
+
+.contact{
+    width: 70%;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    /* background-color: aqua; */
+}
+form{
+  
+}
+.inputInfo{
+    display: grid;
+    grid-template-columns: 36% 36%;
+    column-gap: px;
+    row-gap: 20px;
+}
+input{
+    border: none;
+    width: 250px;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+select{
+    background-color: #fff;
+    border: none;
+    width: 250px;
+    padding: 20px;
+    font-size: 1.1rem;
+}
+textarea{
+   border: none;
+}

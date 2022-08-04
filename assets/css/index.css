@@ -132,8 +132,9 @@ nav>ul>li>a:hover{
 
 /* ABOUT ME */
 #about{
-    width: 80%;
+    width: 70%;
     margin: auto;
+    margin-top: 80px;
 }
 #about h1{
     text-align: center;
@@ -176,4 +177,26 @@ nav>ul>li>a:hover{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+/* WORKING PROCESS */
+.work{
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+}
+.cardsSec{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.cards{
+   
+    text-align: center;
+    width: 350px;
+    height: 400px;
+}
+.arrows{
+    align-self: flex-start;
+    margin: 50px 10px 0px;
 }

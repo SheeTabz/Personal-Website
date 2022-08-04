@@ -155,8 +155,12 @@ nav>ul>li>a:hover{
    display: flex;
    justify-content: space-between;
    height: 15vh;
-    
-
+}
+.flex h4{
+    color: #A01E3F;
+}
+.flex p{
+    font-weight: 800;
 }
 .flex-1{
     align-self: flex-start;

@@ -204,10 +204,11 @@ nav>ul>li>a:hover{
 
 /* SERVICES */
 .services{
+    color: #fff;
     margin-top: px;
     width: 70%;
     margin:auto ;
-    height: 50vh;
+    height: 60vh;
     background-image: url('../images/serv.jpg') ;
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -216,6 +217,40 @@ nav>ul>li>a:hover{
     overflow: hidden;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     z-index: 2;
 }
+.overlay h1, h4{
+   text-align: center;
+}
+.overlay button{
+
+    width: 200px;
+    color:#fff ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 10px;
+    background-color: #A01E3F;
+    border: none;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.gridItems{
+   
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.grid{
+    border: 3px solid #fff;
+    padding: 10px;
+    transform: 0.2s ease;
+}
+/* .grid:hover{
+    background-color: #e2456f;
+    color: black
+} */

@@ -264,12 +264,12 @@ nav>ul>li>a:hover{
     /* background-color: aqua; */
 }
 form{
-  
+  width: 60%;
 }
 .inputInfo{
     display: grid;
     grid-template-columns: 36% 36%;
-    column-gap: px;
+    column-gap: 30px;
     row-gap: 20px;
 }
 input{
@@ -287,4 +287,29 @@ select{
 }
 textarea{
    border: none;
+}
+
+
+/* SOCIALS */
+.socials{
+    /* background-color: #A01E3F; */
+    width: 40%;
+    
+}
+.socials h1{
+    text-align: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.fa-twitter,.fa-linkedin,.fa-instagram,.fa-whatsapp{
+    border: 2px solid #A01E3F;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+.fa-twitter:hover,.fa-linkedin:hover,.fa-instagram:hover,.fa-whatsapp:hover{
+    background-color: #A01E3F;
+    color: #fff;
 }

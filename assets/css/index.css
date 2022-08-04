@@ -209,7 +209,7 @@ nav>ul>li>a:hover{
     margin-top: px;
     width: 70%;
     margin:auto ;
-    height: 60vh;
+    height: 70vh;
     background-image: url('../images/serv.jpg') ;
     background-size:100% 100%;
     background-repeat: no-repeat;
@@ -273,13 +273,14 @@ form{
     row-gap: 20px;
 }
 input{
+    background-color: #a7e0fa;
     border: none;
     width: 250px;
     padding: 20px;
     font-size: 1.1rem;
 }
 select{
-    background-color: #fff;
+    background-color:#a7e0fa ;
     border: none;
     width: 250px;
     padding: 20px;
@@ -287,12 +288,12 @@ select{
 }
 textarea{
    border: none;
+   background-color: #a7e0fa;
 }
 
 
 /* SOCIALS */
 .socials{
-    /* background-color: #A01E3F; */
     width: 40%;
     
 }
@@ -312,4 +313,53 @@ textarea{
 .fa-twitter:hover,.fa-linkedin:hover,.fa-instagram:hover,.fa-whatsapp:hover{
     background-color: #A01E3F;
     color: #fff;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:1765px){
+    #about, .services, .contact{
+        width: 80%;
+    }
+}@media screen and (max-width:1530px){
+    .inputInfo{
+        column-gap: 40px;
+       
+    }
+    #about, .services{
+        width: 100%;
+    }
+    .contact{ 
+        width: 90%;
+    }
+    .aboutSec{
+        justify-content: space-around;
+    }
+    
+}
+@media screen and (max-width: 1330px) {
+    .contact{ 
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .gridItems{
+        width: 90%;
+    }
+}
+@media screen and (max-width:1190px){
+    .contact{
+        /* background-color: #A01E3F; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;     
+    }
+    .inputInfo{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        column-gap: 10px;
+        row-gap: 20px;
+    }
+   form{
+    /* background-color: blue; */
+   }
 }

@@ -328,6 +328,9 @@ textarea{
     #about, .services{
         width: 100%;
     }
+    .services{
+        height:100vh ;
+    }
     .contact{ 
         width: 90%;
     }
@@ -359,7 +362,18 @@ textarea{
         column-gap: 10px;
         row-gap: 20px;
     }
-   form{
-    /* background-color: blue; */
-   }
+   
+}
+@media screen and (max-width:1120px){
+    .image img{
+        width: 150px;
+        border-radius: 500px 500px 0px 0px;
+        margin-left: 70px;
+    }
+}
+@media screen and (max-width:1090px){
+     .inputInfo{
+        grid-template-columns: 45% 45%;
+        column-gap: 30px;
+     }
 }
